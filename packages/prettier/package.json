@@ -1,0 +1,17 @@
+{
+	"name": "@os3/prettier-config",
+	"version": "0.0.0",
+	"description": "OS3's prettier config",
+	"main": "index.cjs",
+	"type": "commonjs",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"directory": "packages/prettier"
+	},
+	"scripts": {},
+	"peerDependencies": {
+		"prettier": "^2.0.0"
+	},
+	"devDependencies": {}
+}

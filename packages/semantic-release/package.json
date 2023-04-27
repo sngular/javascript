@@ -1,0 +1,23 @@
+{
+	"name": "@os3/semantic-release-config",
+	"version": "0.0.0",
+	"description": "OS3's semantic-release config",
+	"main": "index.cjs",
+	"type": "commonjs",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"directory": "packages/semantic-release"
+	},
+	"scripts": {
+		"release": "npx semantic-release"
+	},
+	"dependencies": {
+		"@semantic-release/changelog": "^6.0.0",
+		"@semantic-release/commit-analyzer": "^9.0.0",
+		"@semantic-release/git": "^10.0.0",
+		"@semantic-release/gitlab": "^9.0.0",
+		"@semantic-release/npm": "^9.0.0",
+		"@semantic-release/release-notes-generator": "^10.0.0"
+	}
+}
