@@ -1,6 +1,6 @@
 {
 	"name": "@os3/commitlint-config",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "OS3's commitlint config",
 	"main": "index.cjs",
 	"type": "commonjs",

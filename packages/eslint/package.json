@@ -1,6 +1,6 @@
 {
 	"name": "@os3/eslint-config",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "OS3's JS config, following our styleguide",
 	"main": "index.cjs",
 	"type": "commonjs",
@@ -26,7 +26,7 @@
 		"eslint-plugin-prettier": "^4.0.0"
 	},
 	"devDependencies": {
-		"@os3/prettier-config": "0.0.0",
+		"@os3/prettier-config": "0.0.1",
 		"eslint": "^8.38.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-html": "^7.0.0",
