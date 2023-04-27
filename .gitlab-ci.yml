@@ -5,7 +5,7 @@ stages:
   - release
 
 variables:
-  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+  npm_config_cache: '$CI_PROJECT_DIR/.npm'
   NPM_TOKEN: ${CI_JOB_TOKEN}
   GITLAB_HOST: https://${CI_SERVER_HOST}
   GITLAB_CI_USER_NAME: OS3 bot
@@ -79,8 +79,8 @@ publish:
     - echo "Created the following .npmrc:"; cat .npmrc
   script: npx changesets-gitlab
   variables:
-    INPUT_COMMIT: "chore: release"
-    INPUT_TITLE: "Release"
-    INPUT_REMOVE_SOURCE_BRANCH: "true"
+    INPUT_COMMIT: 'chore: release'
+    INPUT_TITLE: 'Release'
+    INPUT_REMOVE_SOURCE_BRANCH: 'true'
     INPUT_VERSION: npm run update-versions
     INPUT_PUBLISH: npx changeset publish

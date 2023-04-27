@@ -15,7 +15,7 @@
 		"prepare": "husky install",
 		"lint": "npm run lint:prettier && npm run lint:eslint",
 		"lint:eslint": "eslint .",
-		"lint:prettier": "prettier .",
+		"lint:prettier": "prettier --check .",
 		"format": "npm run format:prettier && npm run format:eslint",
 		"format:eslint": "npm run lint:eslint -- --fix",
 		"format:prettier": "npm run lint:prettier -- --write",
