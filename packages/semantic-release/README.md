@@ -14,7 +14,7 @@ Sharable [semantic-release](https://semantic-release.gitbook.io/semantic-release
 Install:
 
 ```bash
-npm install --save-dev @os3/@os3/semantic-release-config
+npm install --save-dev @os3/semantic-release-config
 ```
 
 Config for Single package repo:

@@ -12,8 +12,23 @@ Sharable [eslint](https://eslint.org/) config enforcing OS3 style guidelines. Us
 
 ```bash
 npm install --save-dev @os3/eslint-config
-echo "module.exports = { extends: ['@os3'] };" > eslint.config.cjs
+echo "module.exports = { extends: ['@os3'] };" > .eslintrc.cjs
 ```
+
+Once you have it installed and configured you can add the following script into your `package.json`:
+
+```json
+{
+	"scripts": {
+		"lint": "npm run lint:eslint",
+		"lint:eslint": "eslint .",
+		"format": "npm run format:eslint",
+		"format:eslint": "npm run lint:eslint -- --fix"
+	}
+}
+```
+
+Now you can run `npm format` for formatting all your project code or `npm lint` to check project code formatting.
 
 ## Rules
 

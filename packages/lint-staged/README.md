@@ -6,7 +6,7 @@ Sharable [lint-staged](https://github.com/okonet/lint-staged#readme) config enfo
 
 ```bash
 npm install --save-dev @os3/lint-staged-config
-echo "export * from \"@os3/lint-staged-config\";" > lint-staged.config.js
+echo "module.exports = require('@os3/lint-staged-config');" > lint-staged.config.cjs
 ```
 
 After that you can use [husky](https://typicode.github.io/husky/) to add a pre-commit hook to lint your code before each commit:
