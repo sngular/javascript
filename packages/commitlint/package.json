@@ -13,6 +13,10 @@
 	"dependencies": {
 		"@commitlint/config-conventional": "^17.0.0"
 	},
+	"peerDependencies": {
+		"@commitlint/cli": "^17.0.0",
+		"@commitlint/prompt-cli": "^17.0.0"
+	},
 	"publishConfig": {
 		"access": "public",
 		"registry": "https://gitlab.sngular.com/api/v4/projects/5356/packages/npm/"
