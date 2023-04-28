@@ -1,5 +1,11 @@
 # @os3/lint-staged-config
 
+## 0.0.2
+
+### Patch Changes
+
+- c6adec3: remove unneeded dependencies and scripts
+
 ## 0.0.1
 
 ### Patch Changes

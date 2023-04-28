@@ -1,5 +1,11 @@
 # @os3/prettier-config
 
+## 0.0.2
+
+### Patch Changes
+
+- e36f0c0: setup all properties
+
 ## 0.0.1
 
 ### Patch Changes
