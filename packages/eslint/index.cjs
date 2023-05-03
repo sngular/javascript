@@ -7,6 +7,11 @@ module.exports = {
 		'plugin:jsdoc/recommended',
 	],
 	plugins: ['prettier', 'import', 'jsdoc', 'html', 'markdown'],
+	settings: {
+		jsdoc: {
+			mode: 'typescript',
+		},
+	},
 	env: {
 		browser: true,
 		node: true,
