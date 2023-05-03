@@ -6,7 +6,8 @@ In order to enforcing OS3 style guidelines. We created the following packages to
 - [@os3/eslint-config](./packages/eslint/README.md)
 - [@os3/commitlint-config](./packages/commitlint/README.md)
 - [@os3/lint-staged-config](./packages/lint-staged/README.md)
-- [@os3/semantic-release-config](./semantic-release/README.md)
+- [@os3/semantic-release-config](./packages/semantic-release/README.md)
+- [@os3/tsconfig](./packages/tsconfig/README.md)
 
 You can also configure [`.editorconfig`](./.editorconfig) file to ensure your code editor follow the style guide.
 

@@ -1,0 +1,20 @@
+{
+	"name": "@os3/tsconfig",
+	"version": "0.0.0",
+	"description": "OS3's tsconfig",
+	"main": "tsconfig.json",
+	"type": "module",
+	"exports": {
+		".": "./tsconfig.json",
+		"./checkOnly": "./checkOnly/tsconfig.json"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"directory": "packages/tsconfig"
+	},
+	"scripts": {},
+	"dependencies": {
+		"typescript": "^5.0.0"
+	}
+}
