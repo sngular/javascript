@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.0.3
+
+### Patch Changes
+
+- 44519f8: configure jsdoc to support imports
+
 ## 0.0.2
 
 ### Patch Changes
