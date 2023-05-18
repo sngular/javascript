@@ -23,6 +23,7 @@ module.exports = {
 	},
 	rules: {
 		indent: ['error', 'tab'],
+		'jsdoc/require-description-complete-sentence': ['error'],
 	},
 	overrides: [
 		{
