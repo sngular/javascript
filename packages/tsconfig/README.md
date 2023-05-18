@@ -13,13 +13,13 @@ npm install --save-dev @os3/tsconfig
 Config for basic config:
 
 ```bash
-echo "{ \"extends\": \"@os3/tsconfig\" }" > tsconfig.json"
+echo "{ \"extends\": \"@os3/tsconfig\" }" > tsconfig.json
 ```
 
 Config for check only config:
 
 ```bash
-echo "{ \"extends\": \"@os3/tsconfig/checkOnly\" }" > tsconfig.json"
+echo "{ \"extends\": \"@os3/tsconfig/checkOnly\" }" > tsconfig.json
 ```
 
 After that you have to include:
