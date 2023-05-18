@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- 08a015f: Add rule jsdoc/require-description-complete-sentence
+
 ## 0.0.3
 
 ### Patch Changes
