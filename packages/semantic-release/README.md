@@ -20,11 +20,11 @@ npm install --save-dev @os3/semantic-release-config
 Config for Single package repo:
 
 ```bash
-echo "module.exports = require(\"@os3/semantic-release-config\");" > semantic-release.config.cjs
+echo "module.exports = require(\"@os3/semantic-release-config\");" > release.config.cjs
 ```
 
 config for monorepo:
 
 ```bash
-echo "module.exports = require(\"@os3/semantic-release-config/monorepo\");" > semantic-release.config.cjs
+echo "module.exports = require(\"@os3/semantic-release-config/monorepo\");" > release.config.cjs
 ```
