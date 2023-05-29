@@ -1,6 +1,6 @@
 {
 	"name": "@os3/semantic-release-config",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "OS3's semantic-release config",
 	"main": "index.cjs",
 	"type": "commonjs",
