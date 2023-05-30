@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- 3653cb6: sparate jsdoc confing into other jsdoc.cjs
+
 ## 0.0.4
 
 ### Patch Changes
