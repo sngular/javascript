@@ -30,10 +30,10 @@
 		"@changesets/cli": "^2.26.1",
 		"@commitlint/cli": "^17.0.0",
 		"@commitlint/prompt-cli": "^17.0.0",
-		"@os3/commitlint-config": "0.0.0",
-		"@os3/eslint-config": "0.0.0",
-		"@os3/lint-staged-config": "0.0.0",
-		"@os3/prettier-config": "0.0.0",
+		"@os3/commitlint-config": "*",
+		"@os3/eslint-config": "*",
+		"@os3/lint-staged-config": "*",
+		"@os3/prettier-config": "*",
 		"changesets-gitlab": "^0.9.1",
 		"husky": "^8.0.0"
 	}

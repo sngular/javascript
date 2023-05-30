@@ -4,14 +4,8 @@ module.exports = {
 		'plugin:prettier/recommended',
 		'plugin:import/recommended',
 		'plugin:markdown/recommended',
-		'plugin:jsdoc/recommended',
 	],
-	plugins: ['prettier', 'import', 'jsdoc', 'html', 'markdown'],
-	settings: {
-		jsdoc: {
-			mode: 'typescript',
-		},
-	},
+	plugins: ['prettier', 'import', 'html', 'markdown'],
 	env: {
 		browser: true,
 		node: true,
@@ -23,7 +17,6 @@ module.exports = {
 	},
 	rules: {
 		indent: ['error', 'tab'],
-		'jsdoc/require-description-complete-sentence': ['error'],
 	},
 	overrides: [
 		{
