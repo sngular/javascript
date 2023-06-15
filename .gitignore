@@ -24,6 +24,12 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# Generated files
+packages/**/*.d.ts
+packages/**/*.d.ts.map
+packages/**/*.d.cts
+packages/**/*.d.cts.map
+
 # misc
 /.sass-cache
 /connect.lock

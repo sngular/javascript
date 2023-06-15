@@ -19,7 +19,8 @@
 		"format": "npm run format:prettier && npm run format:eslint",
 		"format:eslint": "npm run lint:eslint -- --fix",
 		"format:prettier": "npm run lint:prettier -- --write",
-		"update-versions": "npx changeset version && npm install"
+		"update-versions": "npx changeset version && npm install",
+		"types": "tsc --build --pretty"
 	},
 	"author": "Jorge del Casar (https://twitter.com/@jorgecasar)",
 	"license": "MPL-2.0",
@@ -34,6 +35,7 @@
 		"@os3/eslint-config": "*",
 		"@os3/lint-staged-config": "*",
 		"@os3/prettier-config": "*",
+		"@os3/tsconfig": "*",
 		"changesets-gitlab": "^0.9.1",
 		"husky": "^8.0.0"
 	}

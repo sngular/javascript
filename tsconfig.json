@@ -1,0 +1,9 @@
+{
+	"extends": "@os3/tsconfig",
+	"compilerOptions": {
+		"outDir": "./",
+		"rootDir": "./"
+	},
+	"include": ["./packages"],
+	"exclude": ["types"]
+}
