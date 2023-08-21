@@ -1,6 +1,6 @@
 {
 	"name": "@os3/eslint-config",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "OS3's JS config, following our styleguide",
 	"main": "index.cjs",
 	"type": "commonjs",

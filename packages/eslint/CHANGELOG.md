@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- a622c3c: add typescript support
+
 ## 0.0.5
 
 ### Patch Changes
