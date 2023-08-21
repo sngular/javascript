@@ -8,7 +8,7 @@ variables:
   npm_config_cache: '$CI_PROJECT_DIR/.npm'
   NPM_TOKEN: ${CI_JOB_TOKEN}
   GITLAB_HOST: https://${CI_SERVER_HOST}
-  GITLAB_CI_USER_NAME: OS3 bot
+  GITLAB_CI_USER_NAME: os3.app
   GITLAB_CI_USER_EMAIL: os3+gitlab@sngular.com
 
 cache:
@@ -85,3 +85,5 @@ publish:
     INPUT_REMOVE_SOURCE_BRANCH: 'true'
     INPUT_VERSION: npm run update-versions
     INPUT_PUBLISH: npx changeset publish
+    DEBUG_GITLAB_CREDENTIAL: 'true'
+    GITLAB_TOKEN_TYPE: 'oauth'
