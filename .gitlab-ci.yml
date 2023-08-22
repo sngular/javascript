@@ -55,6 +55,17 @@ lint:
     - job: setup
   script: npm run lint
 
+types:
+  stage: lint
+  rules:
+    - if: $CI_PIPELINE_SOURCE == 'merge_request_event'
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags:
+    - node
+  needs:
+    - job: setup
+  script: npm run types
+
 comment:
   stage: comment
   rules:
@@ -73,6 +84,7 @@ publish:
     - node
   needs:
     - job: setup
+    - job: types
   before_script:
     - echo "@os3:registry=https://${CI_SERVER_HOST}/api/v4/projects/${CI_PROJECT_ID}/packages/npm/">.npmrc
     - echo "//${CI_SERVER_HOST}/api/v4/packages/npm/:_authToken=${CI_JOB_TOKEN}">>.npmrc
