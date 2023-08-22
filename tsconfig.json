@@ -4,6 +4,6 @@
 		"outDir": "./",
 		"rootDir": "./"
 	},
-	"include": ["./packages"],
+	"include": ["packages"],
 	"exclude": ["types"]
 }
