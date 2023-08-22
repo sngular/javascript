@@ -1,5 +1,11 @@
 # @os3/semantic-release-config
 
+## 0.1.0
+
+### Minor Changes
+
+- 9b53fd6: Update dependencies
+
 ## 0.0.2
 
 ### Patch Changes

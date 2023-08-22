@@ -1,6 +1,6 @@
 {
 	"name": "@os3/prettier-config",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"description": "OS3's prettier config",
 	"main": "index.cjs",
 	"type": "commonjs",

@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.1.0
+
+### Minor Changes
+
+- 9b53fd6: Update dependencies
+
 ## 0.0.6
 
 ### Patch Changes

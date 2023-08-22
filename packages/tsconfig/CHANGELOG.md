@@ -1,5 +1,11 @@
 # @os3/tsconfig
 
+## 0.0.3
+
+### Patch Changes
+
+- bb04254: fix tsconfig for javascript projects
+
 ## 0.0.2
 
 ### Patch Changes

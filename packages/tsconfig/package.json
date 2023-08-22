@@ -1,6 +1,6 @@
 {
 	"name": "@os3/tsconfig",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "OS3's tsconfig",
 	"main": "tsconfig.json",
 	"type": "module",
