@@ -2,10 +2,10 @@
 
 In order to enforcing OS3 style guidelines. We created the following packages to help projects implement linters easily.
 
-- [@os3/prettier-config](./packages/prettier/README.md)
-- [@os3/eslint-config](./packages/eslint/README.md)
 - [@os3/commitlint-config](./packages/commitlint/README.md)
+- [@os3/eslint-config](./packages/eslint/README.md)
 - [@os3/lint-staged-config](./packages/lint-staged/README.md)
+- [@os3/prettier-config](./packages/prettier/README.md)
 - [@os3/semantic-release-config](./packages/semantic-release/README.md)
 - [@os3/tsconfig](./packages/tsconfig/README.md)
 
