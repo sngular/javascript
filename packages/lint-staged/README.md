@@ -12,7 +12,7 @@ echo "module.exports = require('@os3/lint-staged-config');" > lint-staged.config
 After that you can use [husky](https://typicode.github.io/husky/) to add a pre-commit hook to lint your code before each commit:
 
 ```bash
-npx husky add .husky/commit-msg 'npx --no -- commitlint --edit "$1"'
+npx husky add .husky/pre-commit 'npx --no -- lint-staged'
 ```
 
 ## Scripts
