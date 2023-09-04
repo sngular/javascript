@@ -1,12 +1,11 @@
 module.exports = {
 	extends: [
 		'eslint:recommended',
-		'plugin:prettier/recommended',
 		'plugin:import/recommended',
 		'plugin:markdown/recommended',
 		'plugin:@typescript-eslint/recommended',
 	],
-	plugins: ['@typescript-eslint', 'prettier', 'import', 'html', 'markdown'],
+	plugins: ['@typescript-eslint', 'import', 'html', 'markdown'],
 	env: {
 		browser: true,
 		node: true,
