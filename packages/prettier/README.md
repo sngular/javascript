@@ -17,7 +17,7 @@ Once you have it installed and configured you can add the following script into 
 		"lint": "npm run lint:prettier",
 		"lint:prettier": "prettier --check .",
 		"format": "npm run format:prettier",
-		"format:prettier": "npm run lint:prettier -- --fix"
+		"format:prettier": "npm run lint:prettier -- --write"
 	}
 }
 ```
