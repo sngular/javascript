@@ -1,5 +1,15 @@
 # @os3/eslint-config
 
+## 0.2.0
+
+### Minor Changes
+
+- 547b3d7: remove prettier config
+
+### Patch Changes
+
+- b01115c: add types
+
 ## 0.1.0
 
 ### Minor Changes

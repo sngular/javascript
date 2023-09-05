@@ -1,5 +1,11 @@
 # @os3/semantic-release-config
 
+## 0.1.1
+
+### Patch Changes
+
+- b01115c: add types
+
 ## 0.1.0
 
 ### Minor Changes
