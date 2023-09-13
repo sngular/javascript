@@ -1,5 +1,11 @@
 # @os3/eslint-config
 
+## 0.2.1
+
+### Patch Changes
+
+- 02eb613: add suport for custom element manifest jsdoc tags
+
 ## 0.2.0
 
 ### Minor Changes
