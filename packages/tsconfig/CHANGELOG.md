@@ -1,5 +1,11 @@
 # @os3/tsconfig
 
+## 0.0.4
+
+### Patch Changes
+
+- 3526a9c: set module to NodeNext (fix error TS5110)
+
 ## 0.0.3
 
 ### Patch Changes
