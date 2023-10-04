@@ -1,5 +1,11 @@
 # @os3/lint-staged-config
 
+## 0.0.4
+
+### Patch Changes
+
+- febd223: don't run prettier on javascript files
+
 ## 0.0.3
 
 ### Patch Changes

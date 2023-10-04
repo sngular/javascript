@@ -1,6 +1,6 @@
 {
 	"name": "@os3/lint-staged-config",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "OS3's lint-staged config",
 	"main": "index.cjs",
 	"type": "commonjs",
