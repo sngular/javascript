@@ -18,6 +18,14 @@ module.exports = {
 	},
 	rules: {
 		indent: ['error', 'tab'],
+		'import/order': [
+			'error',
+			{
+				groups: [['builtin', 'external', 'object'], ['internal', 'parent', 'sibling', 'index'], ['type']],
+				'newlines-between': 'always',
+				alphabetize: { order: 'asc', caseInsensitive: true },
+			},
+		],
 	},
 	overrides: [
 		{

@@ -34,7 +34,17 @@ Once you have it installed and configured you can add the following script into 
 }
 ```
 
-Now you can run `npm format` for formatting all your project code or `npm lint` to check project code formatting.
+Now you can run `npm run format` for formatting all your project code or `npm run lint` to check project code formatting.
+
+### VSCode recommendation
+
+If you prefer to automate ESLint fix execution, you can add this configuration to your `VSCode settings.json`, and it will be executed every time you save a file.
+
+```json
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+},
+```
 
 ## Rules
 
@@ -45,6 +55,8 @@ We are following the following recommendations:
 - plugin:import/recommended
 - plugin:markdown/recommended
 - plugin:jsdoc/recommended
+
+And a specific `import/order` rule for the `plugin:import` that you can see at [index.cjs](index.cjs).
 
 ### Indent
 
