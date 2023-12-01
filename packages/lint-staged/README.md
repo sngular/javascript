@@ -17,10 +17,7 @@ npx husky add .husky/pre-commit 'npx --no -- lint-staged'
 
 ## Scripts
 
-It will run prettier or eslit depends of the following rules:
+It will run ESLint depending on the following rules:
 
 - `*.{js,cjs,mjs,jsx,ts,tsx}`
-  - `prettier --write`
   - `eslint --fix`
-- `*.{md,html,css}`
-  - `prettier --write`
