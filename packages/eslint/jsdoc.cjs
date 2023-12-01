@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['./index.cjs', 'plugin:jsdoc/recommended'],
+	extends: ['plugin:jsdoc/recommended'],
 	plugins: ['jsdoc'],
 	settings: {
 		jsdoc: {

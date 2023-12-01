@@ -15,6 +15,12 @@ npm install --save-dev @os3/eslint-config
 echo "module.exports = { extends: ['@os3'] };" > .eslintrc.cjs
 ```
 
+If you want to use it with **jsdoc** you need to modify your `.eslintrc.cjs` file:
+
+```js
+module.exports = { extends: ['@os3', '@os3/eslint-config/jsdoc.cjs'] };
+```
+
 Once you have it installed and configured you can add the following script into your `package.json`:
 
 ```json
