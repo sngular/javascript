@@ -1,5 +1,22 @@
 # @os3/eslint-config
 
+## 0.3.0
+
+### Minor Changes
+
+- ad86244: Add a new configuration rule for eslint-plugin-import that controls import ordering.
+
+  This specific configuration defines three groups with a newline between them.
+
+  The rule is auto-fixable, making it easy for the end users to apply.
+
+  Doc: https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/order.md
+
+### Patch Changes
+
+- a212e7c: Keep ESLint configuration files independent
+- 91b6aea: Add eslint config to be used when working with prettier
+
 ## 0.2.1
 
 ### Patch Changes

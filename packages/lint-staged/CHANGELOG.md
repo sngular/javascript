@@ -1,5 +1,13 @@
 # @os3/lint-staged-config
 
+## 0.0.5
+
+### Patch Changes
+
+- 80ad7af: Remove the execution of Prettier, leaving only ESLint
+- 84015c2: Add support for yaml fix with Prettier
+- 12ca2c2: Add an alternative configuration with ESLint and Prettier
+
 ## 0.0.4
 
 ### Patch Changes
