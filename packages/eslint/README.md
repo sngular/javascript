@@ -21,6 +21,16 @@ If you want to use it with **jsdoc** you need to modify your `.eslintrc.cjs` fil
 module.exports = { extends: ['@os3', '@os3/eslint-config/jsdoc.cjs'] };
 ```
 
+If you want to use it with **prettier** you need to modify your `.eslintrc.cjs` file:
+
+```js
+module.exports = { extends: ['@os3', '@os3/eslint-config/prettier.cjs'] };
+```
+
+The prettier config must be the last one in the extends array, because it overrides some conflicting ESLint formatting rules.
+
+**Note:** The order of the extends is important, because the last one will override the previous ones.
+
 Once you have it installed and configured you can add the following script into your `package.json`:
 
 ```json
