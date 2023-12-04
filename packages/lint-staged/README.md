@@ -46,5 +46,5 @@ Based on the selected configuration, it will execute different actions according
 - `*.{js,cjs,mjs,jsx,ts,tsx}`
   - `eslint --fix`
   - `prettier --write`
-- `*.{md,html,css}`
+- `*.{md,html,css,yml,yaml}`
   - `prettier --write`
