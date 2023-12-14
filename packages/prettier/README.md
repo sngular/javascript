@@ -35,3 +35,17 @@ Reasons:
 - logical: that's what they're used for.
 - file size: tab is just 1 character.
 - accessibility: you can customize your own indentation width.
+
+## VSCode recommendations
+
+Install [Prettier VSCode extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode), and set Prettier as default formatter in your `VSCode settings.json` with:
+
+```
+"editor.defaultFormatter": "esbenp.prettier-vscode"
+```
+
+If you prefer to automate Prettier execution, you can add this configuration and it will be executed every time you save a file.
+
+```
+"editor.formatOnSave": true
+```
