@@ -1,5 +1,5 @@
 module.exports = {
-	extends: ['plugin:jsdoc/recommended'],
+	extends: ['plugin:jsdoc/recommended-typescript-flavor-error'],
 	plugins: ['jsdoc'],
 	settings: {
 		jsdoc: {
@@ -7,6 +7,8 @@ module.exports = {
 		},
 	},
 	rules: {
+		'jsdoc/no-defaults': 'off',
+		'jsdoc/require-description': ['error'],
 		'jsdoc/require-description-complete-sentence': ['error'],
 		// support for https://custom-elements-manifest.open-wc.org/
 		'jsdoc/check-tag-names': [
