@@ -15,21 +15,7 @@ npm install --save-dev @os3/eslint-config
 echo "module.exports = { extends: ['@os3'] };" > .eslintrc.cjs
 ```
 
-If you want to use it with **jsdoc** you need to modify your `.eslintrc.cjs` file:
-
-```js
-module.exports = { extends: ['@os3', '@os3/eslint-config/jsdoc.cjs'] };
-```
-
-If you want to use it with **prettier** you need to modify your `.eslintrc.cjs` file:
-
-```js
-module.exports = { extends: ['@os3', '@os3/eslint-config/prettier.cjs'] };
-```
-
-The prettier config must be the last one in the extends array, because it overrides some conflicting ESLint formatting rules.
-
-**Note:** The order of the extends is important, because the last one will override the previous ones.
+If you want to use extend the config with other tools like prettier, jsdoc or type information, you can take a look at [Configurations](#configurations) section.
 
 Once you have it installed and configured you can add the following script into your `package.json`:
 
@@ -56,19 +42,21 @@ If you prefer to automate ESLint fix execution, you can add this configuration t
 },
 ```
 
-## Rules
+## Configurations
 
-We are following the following recommendations:
+### Default
 
-- [eslint:recommended](https://eslint.org/docs/latest/rules/)
-- plugin:prettier/recommended
-- plugin:import/recommended
-- plugin:markdown/recommended
-- plugin:jsdoc/recommended
+The default configuration is the one that you can see at [index.cjs](index.cjs). It expect to be used in a source type module, and override environment to commonjs for files with `.cjs` extension. And a specific `import/order` rule for the `plugin:import`.
 
-And a specific `import/order` rule for the `plugin:import` that you can see at [index.cjs](index.cjs).
+### Import order
 
-### Indent
+It will split imports in 3 groups:
+
+- External imports
+- Internal imports
+- Type imports
+
+#### Indent
 
 We decide to use tabs instead of spaces that recommends eslint.
 
@@ -77,3 +65,55 @@ Reasons:
 - logical: that's what they're used for.
 - file size: tab is just 1 character.
 - accessibility: you can customize your own indentation width.
+
+### Prettier
+
+If you want to use prettier with eslint you need to add this configuration to your `.eslintrc.cjs` file:
+
+```js
+module.exports = { extends: ['@os3', '@os3/eslint-config/prettier.cjs'] };
+```
+
+The prettier config must be the last one in the extends array, because it overrides some conflicting ESLint formatting rules.
+
+### JSDoc
+
+If you want to use jsdoc with eslint you need to add this configuration to your `.eslintrc.cjs` file:
+
+```js
+module.exports = { extends: ['@os3', '@os3/eslint-config/jsdoc.cjs'] };
+```
+
+### Type Information
+
+If you want to work with types using typescript or jsdoc with eslint you need to add this configuration to your `.eslintrc.cjs` file:
+
+```js
+module.exports = { extends: ['@os3', '@os3/eslint-config/type-information.cjs'] };
+```
+
+Additionally, you will need `tsconfig.json` files, that you can find in the package [@os3/tsconfig](../tsconfig/README.md). Eslint types configuration will use the `tsconfig.json` file. If you need to use different configuration take a look [Linting with Type Information](https://typescript-eslint.io/linting/typed-linting/).
+
+### All together
+
+If you want to use all together you need to add this configuration to your `.eslintrc.cjs` file:
+
+```js
+module.exports = {
+	extends: [
+		'@os3',
+		'@os3/eslint-config/type-information.cjs',
+		'@os3/eslint-config/jsdoc.cjs',
+		'@os3/eslint-config/prettier.cjs',
+	],
+};
+```
+
+If you are planning to include into an existing project, we recommend to include them one by one to solve the linting errors step by step. The recommended include order is:
+
+1. `@os3`
+2. `@os3/eslint-config/prettier.cjs`
+3. `@os3/eslint-config/jsdoc.cjs`
+4. `@os3/eslint-config/type-information.cjs`
+
+This will help you to lint your code and fix the errors easily.
