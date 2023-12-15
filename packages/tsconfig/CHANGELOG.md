@@ -1,5 +1,11 @@
 # @os3/tsconfig
 
+## 0.0.5
+
+### Patch Changes
+
+- 0ca2da9: add check js
+
 ## 0.0.4
 
 ### Patch Changes

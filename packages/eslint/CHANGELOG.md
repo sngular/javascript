@@ -1,5 +1,12 @@
 # @os3/eslint-config
 
+## 0.4.0
+
+### Minor Changes
+
+- 8d6dfc4: add configuration for linting with Type Information
+- 9c7c193: Update jsdoc config
+
 ## 0.3.0
 
 ### Minor Changes
