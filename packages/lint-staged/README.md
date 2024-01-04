@@ -32,6 +32,28 @@ After that you can use [husky](https://typicode.github.io/husky/) to add a pre-c
 npx husky add .husky/pre-commit 'npx --no -- lint-staged'
 ```
 
+#### Different paths for .git file and package.json
+
+`husky install` must be run in the same directory as .git, but you can change directory during `prepare` script and pass a different directory. If your .git file and package.json are in different folders, you will have to specific the package.json directory in both the `prepare` script and the husky hooks.
+
+In this example, the .git file is one level below the folder with the package.json (located at `/front`).
+
+```json
+{
+	"scripts": {
+		"prepare": "cd .. && husky install front/.husky"
+	}
+}
+```
+
+If you had a pre-commit hook, you would need to specify the directory as follows:
+
+```bash
+# ...
+cd front
+npm test
+```
+
 ## Scripts
 
 Based on the selected configuration, it will execute different actions according to the following rules:
