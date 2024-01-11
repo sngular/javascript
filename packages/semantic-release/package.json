@@ -1,6 +1,6 @@
 {
 	"name": "@sngular/semantic-release-config",
-	"version": "0.1.1",
+	"version": "1.0.0",
 	"description": "SNGULAR's semantic-release config",
 	"main": "index.cjs",
 	"type": "commonjs",

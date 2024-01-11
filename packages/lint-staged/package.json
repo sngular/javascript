@@ -1,6 +1,6 @@
 {
 	"name": "@sngular/lint-staged-config",
-	"version": "0.0.5",
+	"version": "1.0.0",
 	"description": "SNGULAR's lint-staged config",
 	"main": "index.cjs",
 	"type": "commonjs",
