@@ -1,13 +1,16 @@
 {
-	"name": "@os3/eslint-config",
+	"name": "@sngular/eslint-config",
 	"version": "0.4.0",
-	"description": "OS3's JS config, following our styleguide",
+	"description": "SNGULAR's JS config, following our styleguide",
 	"main": "index.cjs",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "git+https://github.com/sngular/javascript.git",
 		"directory": "packages/eslint"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {},
 	"peerDependencies": {

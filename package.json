@@ -1,15 +1,15 @@
 {
-	"name": "javascript",
+	"name": "@sngular/javascript",
 	"version": "1.0.0",
-	"description": "Sngular's Javascript styleguide",
+	"description": "Sngular's Javascript style guide",
 	"private": true,
 	"type": "commonjs",
 	"bugs": {
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript/-/issues"
+		"url": "https://github.com/sngular/javascript.git/-/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript"
+		"url": "git+https://github.com/sngular/javascript.git"
 	},
 	"scripts": {
 		"prepare": "husky install",
@@ -20,9 +20,18 @@
 		"format:eslint": "npm run lint:eslint -- --fix",
 		"format:prettier": "npm run lint:prettier -- --write",
 		"update-versions": "npx changeset version && npm install",
-		"types": "tsc --build --pretty"
+		"types": "tsc --build --pretty",
+		"release": "changeset publish"
 	},
-	"author": "Jorge del Casar (https://twitter.com/@jorgecasar)",
+	"author": {
+		"name": "SNGULAR"
+	},
+	"contributors": [
+		"Jorge del Casar",
+		"Javier Sierra",
+		"Saul Blanco Tejero",
+		"Alberto Peinado Rubio"
+	],
 	"license": "MPL-2.0",
 	"workspaces": [
 		"packages/*"
@@ -31,12 +40,11 @@
 		"@changesets/cli": "^2.0.0",
 		"@commitlint/cli": "^17.0.0",
 		"@commitlint/prompt-cli": "^17.0.0",
-		"@os3/commitlint-config": "*",
-		"@os3/eslint-config": "*",
-		"@os3/lint-staged-config": "*",
-		"@os3/prettier-config": "*",
-		"@os3/tsconfig": "*",
-		"changesets-gitlab": "^0.10.0",
+		"@sngular/commitlint-config": "*",
+		"@sngular/eslint-config": "*",
+		"@sngular/lint-staged-config": "*",
+		"@sngular/prettier-config": "*",
+		"@sngular/tsconfig": "*",
 		"husky": "^8.0.0"
 	}
 }

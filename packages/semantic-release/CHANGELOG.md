@@ -1,4 +1,4 @@
-# @os3/semantic-release-config
+# @sngular/semantic-release-config
 
 ## 0.1.1
 

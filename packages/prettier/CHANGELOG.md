@@ -1,4 +1,4 @@
-# @os3/prettier-config
+# @sngular/prettier-config
 
 ## 0.1.1
 

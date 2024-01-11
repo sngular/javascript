@@ -1,5 +1,5 @@
 {
-	"extends": "@os3/tsconfig",
+	"extends": "@sngular/tsconfig",
 	"compilerOptions": {
 		"outDir": "./",
 		"rootDir": "./"

@@ -1,1 +1,1 @@
-module.exports = require('@os3/prettier-config');
+module.exports = require('@sngular/prettier-config');

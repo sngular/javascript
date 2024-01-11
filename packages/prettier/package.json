@@ -1,13 +1,16 @@
 {
-	"name": "@os3/prettier-config",
+	"name": "@sngular/prettier-config",
 	"version": "0.1.1",
-	"description": "OS3's prettier config",
+	"description": "SNGULAR's prettier config",
 	"main": "index.cjs",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "git+https://github.com/sngular/javascript.git",
 		"directory": "packages/prettier"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {},
 	"peerDependencies": {

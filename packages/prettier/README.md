@@ -1,12 +1,12 @@
-# @os3/prettier-config
+# @sngular/prettier-config
 
-Sharable [prettier](https://prettier.io/) config enforcing OS3 style guidelines.
+Sharable [prettier](https://prettier.io/) config enforcing SNGULAR style guidelines.
 
 ## Getting started
 
 ```bash
-npm install --save-dev @os3/prettier-config
-echo "module.exports = require(\"@os3/prettier-config\");" > prettier.config.cjs
+npm install --save-dev @sngular/prettier-config
+echo "module.exports = require(\"@sngular/prettier-config\");" > prettier.config.cjs
 ```
 
 Once you have it installed and configured you can add the following script into your `package.json`:

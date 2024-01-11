@@ -1,13 +1,13 @@
-# @os3/lint-staged-config
+# @sngular/lint-staged-config
 
-Sharable [lint-staged](https://github.com/okonet/lint-staged#readme) config enforcing OS3 style guidelines.
+Sharable [lint-staged](https://github.com/okonet/lint-staged#readme) config enforcing SNGULAR style guidelines.
 
 ## Getting started
 
 ### Install
 
 ```bash
-npm install --save-dev @os3/lint-staged-config
+npm install --save-dev @sngular/lint-staged-config
 ```
 
 ### Configure
@@ -15,13 +15,13 @@ npm install --save-dev @os3/lint-staged-config
 #### With ESLint
 
 ```bash
-echo "module.exports = require('@os3/lint-staged-config');" > lint-staged.config.cjs
+echo "module.exports = require('@sngular/lint-staged-config');" > lint-staged.config.cjs
 ```
 
 #### With ESLint & Prettier
 
 ```bash
-echo "module.exports = require('@os3/lint-staged-config/prettier.cjs');" > lint-staged.config.cjs
+echo "module.exports = require('@sngular/lint-staged-config/prettier.cjs');" > lint-staged.config.cjs
 ```
 
 ### Hook

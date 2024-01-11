@@ -1,25 +1,25 @@
-# @os3/tsconfig
+# @sngular/tsconfig
 
-Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) enforcing OS3 style guidelines.
+Sharable [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) enforcing SNGULAR style guidelines.
 
 ## Getting started
 
 Install:
 
 ```bash
-npm install --save-dev @os3/tsconfig
+npm install --save-dev @sngular/tsconfig
 ```
 
 Config for basic config:
 
 ```bash
-echo "{ \"extends\": \"@os3/tsconfig\" }" > tsconfig.json
+echo "{ \"extends\": \"@sngular/tsconfig\" }" > tsconfig.json
 ```
 
 Config for check only config:
 
 ```bash
-echo "{ \"extends\": \"@os3/tsconfig/checkOnly\" }" > tsconfig.json
+echo "{ \"extends\": \"@sngular/tsconfig/checkOnly\" }" > tsconfig.json
 ```
 
 After that you have to include:
@@ -33,7 +33,7 @@ The final aspect of `tsconfig` should be like:
 
 ```json
 {
-	"extends": "@os3/tsconfig",
+	"extends": "@sngular/tsconfig",
 	"compilerOptions": {
 		"outDir": "./dist-types",
 		"rootDir": "."

@@ -1,17 +1,17 @@
 # Javascript quality guidelines
 
-In order to enforcing OS3 style guidelines. We created the following packages to help projects implement linters easily.
+In order to enforcing SNGULAR style guidelines. We created the following packages to help projects implement linters easily.
 
-- [@os3/commitlint-config](./packages/commitlint/README.md)
-- [@os3/eslint-config](./packages/eslint/README.md)
-- [@os3/lint-staged-config](./packages/lint-staged/README.md)
-- [@os3/prettier-config](./packages/prettier/README.md)
-- [@os3/semantic-release-config](./packages/semantic-release/README.md)
-- [@os3/tsconfig](./packages/tsconfig/README.md)
+- [@sngular/commitlint-config](./packages/commitlint/README.md)
+- [@sngular/eslint-config](./packages/eslint/README.md)
+- [@sngular/lint-staged-config](./packages/lint-staged/README.md)
+- [@sngular/prettier-config](./packages/prettier/README.md)
+- [@sngular/semantic-release-config](./packages/semantic-release/README.md)
+- [@sngular/tsconfig](./packages/tsconfig/README.md)
 
 You can also configure [`.editorconfig`](./.editorconfig) file to ensure your code editor follow the style guide.
 
-Some of the packages (commitlint & lint-staged) are created to work with [husky](https://typicode.github.io/husky/) to make git hook easy. We recomend to follow the [manual installation](https://typicode.github.io/husky/#/?id=manual) and then add the following hooks to your project:
+Some of the packages (commitlint & lint-staged) are created to work with [husky](https://typicode.github.io/husky/) to make git hook easy. We recommend to follow the [manual installation](https://typicode.github.io/husky/#/?id=manual) and then add the following hooks to your project:
 
 - Hook for lint commit messages:
 

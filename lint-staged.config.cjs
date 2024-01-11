@@ -1,1 +1,1 @@
-module.exports = require('@os3/lint-staged-config');
+module.exports = require('@sngular/lint-staged-config');

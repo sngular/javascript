@@ -1,6 +1,6 @@
-# @os3/eslint-config
+# @sngular/eslint-config
 
-Sharable [eslint](https://eslint.org/) config enforcing OS3 style guidelines. Uses:
+Sharable [eslint](https://eslint.org/) config enforcing SNGULAR style guidelines. Uses:
 
 - [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier): Runs Prettier as an ESLint rule.
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): Lint ES2015+ (ES6+) import/export syntax
@@ -11,8 +11,8 @@ Sharable [eslint](https://eslint.org/) config enforcing OS3 style guidelines. Us
 ## Getting started
 
 ```bash
-npm install --save-dev @os3/eslint-config
-echo "module.exports = { extends: ['@os3/eslint-config'] };" > .eslintrc.cjs
+npm install --save-dev @sngular/eslint-config
+echo "module.exports = { extends: ['@sngular/eslint-config'] };" > .eslintrc.cjs
 ```
 
 If you want to use extend the config with other tools like prettier, jsdoc or type information, you can take a look at [Configurations](#configurations) section.
@@ -71,7 +71,7 @@ Reasons:
 If you want to use prettier with eslint you need to add this configuration to your `.eslintrc.cjs` file:
 
 ```js
-module.exports = { extends: ['@os3/eslint-config', '@os3/eslint-config/prettier.cjs'] };
+module.exports = { extends: ['@sngular/eslint-config', '@sngular/eslint-config/prettier.cjs'] };
 ```
 
 The prettier config must be the last one in the extends array, because it overrides some conflicting ESLint formatting rules.
@@ -81,7 +81,7 @@ The prettier config must be the last one in the extends array, because it overri
 If you want to use jsdoc with eslint you need to add this configuration to your `.eslintrc.cjs` file:
 
 ```js
-module.exports = { extends: ['@os3/eslint-config', '@os3/eslint-config/jsdoc.cjs'] };
+module.exports = { extends: ['@sngular/eslint-config', '@sngular/eslint-config/jsdoc.cjs'] };
 ```
 
 ### Type Information
@@ -89,10 +89,10 @@ module.exports = { extends: ['@os3/eslint-config', '@os3/eslint-config/jsdoc.cjs
 If you want to work with types using typescript or jsdoc with eslint you need to add this configuration to your `.eslintrc.cjs` file:
 
 ```js
-module.exports = { extends: ['@os3/eslint-config', '@os3/eslint-config/type-information.cjs'] };
+module.exports = { extends: ['@sngular/eslint-config', '@sngular/eslint-config/type-information.cjs'] };
 ```
 
-Additionally, you will need `tsconfig.json` files, that you can find in the package [@os3/tsconfig](../tsconfig/README.md). Eslint types configuration will use the `tsconfig.json` file. If you need to use different configuration take a look [Linting with Type Information](https://typescript-eslint.io/linting/typed-linting/).
+Additionally, you will need `tsconfig.json` files, that you can find in the package [@sngular/tsconfig](../tsconfig/README.md). Eslint types configuration will use the `tsconfig.json` file. If you need to use different configuration take a look [Linting with Type Information](https://typescript-eslint.io/linting/typed-linting/).
 
 ### All together
 
@@ -101,19 +101,19 @@ If you want to use all together you need to add this configuration to your `.esl
 ```js
 module.exports = {
 	extends: [
-		'@os3/eslint-config',
-		'@os3/eslint-config/type-information.cjs',
-		'@os3/eslint-config/jsdoc.cjs',
-		'@os3/eslint-config/prettier.cjs',
+		'@sngular/eslint-config',
+		'@sngular/eslint-config/type-information.cjs',
+		'@sngular/eslint-config/jsdoc.cjs',
+		'@sngular/eslint-config/prettier.cjs',
 	],
 };
 ```
 
 If you are planning to include into an existing project, we recommend to include them one by one to solve the linting errors step by step. The recommended include order is:
 
-1. `@os3/eslint-config`
-2. `@os3/eslint-config/prettier.cjs`
-3. `@os3/eslint-config/jsdoc.cjs`
-4. `@os3/eslint-config/type-information.cjs`
+1. `@sngular/eslint-config`
+2. `@sngular/eslint-config/prettier.cjs`
+3. `@sngular/eslint-config/jsdoc.cjs`
+4. `@sngular/eslint-config/type-information.cjs`
 
 This will help you to lint your code and fix the errors easily.
