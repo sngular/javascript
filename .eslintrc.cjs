@@ -1,1 +1,1 @@
-module.exports = { extends: '@os3' };
+module.exports = { extends: '@sngular' };

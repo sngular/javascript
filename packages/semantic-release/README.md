@@ -1,6 +1,6 @@
-# @os3/semantic-release-config
+# @sngular/semantic-release-config
 
-Sharable [semantic-release](https://semantic-release.gitbook.io/semantic-release/) config enforcing OS3 style guidelines. Uses:
+Sharable [semantic-release](https://semantic-release.gitbook.io/semantic-release/) config enforcing SNGULAR style guidelines. Uses:
 
 - [@semantic-release/commit-analyzer](https://github.com/semantic-release/commit-analyzer)
 - [@semantic-release/release-notes-generator](https://github.com/semantic-release/release-notes-generator)
@@ -14,17 +14,17 @@ Sharable [semantic-release](https://semantic-release.gitbook.io/semantic-release
 Install:
 
 ```bash
-npm install --save-dev @os3/semantic-release-config
+npm install --save-dev @sngular/semantic-release-config
 ```
 
 Config for Single package repo:
 
 ```bash
-echo "module.exports = require(\"@os3/semantic-release-config\");" > release.config.cjs
+echo "module.exports = require(\"@sngular/semantic-release-config\");" > release.config.cjs
 ```
 
 config for monorepo:
 
 ```bash
-echo "module.exports = require(\"@os3/semantic-release-config/monorepo\");" > release.config.cjs
+echo "module.exports = require(\"@sngular/semantic-release-config/monorepo\");" > release.config.cjs
 ```

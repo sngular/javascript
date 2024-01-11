@@ -1,12 +1,12 @@
 {
-	"name": "@os3/lint-staged-config",
+	"name": "@sngular/lint-staged-config",
 	"version": "0.0.5",
-	"description": "OS3's lint-staged config",
+	"description": "SNGULAR's lint-staged config",
 	"main": "index.cjs",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "https://github.com/sngular/javascript.git",
 		"directory": "packages/lint-staged"
 	},
 	"scripts": {},

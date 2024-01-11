@@ -1,4 +1,4 @@
-# @os3/eslint-config
+# @sngular/eslint-config
 
 ## 0.4.0
 

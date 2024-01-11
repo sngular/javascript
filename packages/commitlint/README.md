@@ -1,14 +1,14 @@
-# @os3/commitlint-config
+# @sngular/commitlint-config
 
-Sharable [commitlint](https://commitlint.js.org/) config enforcing OS3 style guidelines. Uses:
+Sharable [commitlint](https://commitlint.js.org/) config enforcing SNGULAR style guidelines. Uses:
 
 - [@commitlint/config-conventional](https://www.npmjs.com/package/@commitlint/config-conventional): Shareable commitlint config enforcing conventional commits.
 
 ## Getting started
 
 ```bash
-npm install --save-dev @os3/commitlint-config
-echo "module.exports = { extends: ['@os3'] };" > commitlint.config.cjs
+npm install --save-dev @sngular/commitlint-config
+echo "module.exports = { extends: ['@sngular'] };" > commitlint.config.cjs
 ```
 
 After that you can use [husky](https://typicode.github.io/husky/) to add a commit-msg hook to lint your commit messages:

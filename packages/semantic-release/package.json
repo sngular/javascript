@@ -1,12 +1,12 @@
 {
-	"name": "@os3/semantic-release-config",
+	"name": "@sngular/semantic-release-config",
 	"version": "0.1.1",
-	"description": "OS3's semantic-release config",
+	"description": "SNGULAR's semantic-release config",
 	"main": "index.cjs",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "https://github.com/sngular/javascript.git",
 		"directory": "packages/semantic-release"
 	},
 	"scripts": {

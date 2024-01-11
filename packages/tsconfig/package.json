@@ -1,7 +1,7 @@
 {
-	"name": "@os3/tsconfig",
+	"name": "@sngular/tsconfig",
 	"version": "0.0.5",
-	"description": "OS3's tsconfig",
+	"description": "Sngular's tsconfig",
 	"main": "tsconfig.json",
 	"type": "module",
 	"exports": {
@@ -10,7 +10,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "https://github.com/sngular/javascript.git",
 		"directory": "packages/tsconfig"
 	},
 	"scripts": {},

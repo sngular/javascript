@@ -1,4 +1,4 @@
-# @os3/tsconfig
+# @sngular/tsconfig
 
 ## 0.0.5
 

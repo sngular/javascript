@@ -1,4 +1,4 @@
-# @os3/lint-staged-config
+# @sngular/lint-staged-config
 
 ## 0.0.5
 
@@ -32,4 +32,4 @@
 
 - 8c02b86: first version
 - Updated dependencies [8c02b86]
-  - @os3/eslint-config@0.0.1
+  - @sngular/eslint-config@0.0.1

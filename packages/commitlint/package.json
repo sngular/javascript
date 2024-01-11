@@ -1,12 +1,12 @@
 {
-	"name": "@os3/commitlint-config",
+	"name": "@sngular/commitlint-config",
 	"version": "0.0.3",
-	"description": "OS3's commitlint config",
+	"description": "SNGULAR's commitlint config",
 	"main": "index.cjs",
 	"type": "commonjs",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.sngular.com/os3/quality-guidlines/javascript",
+		"url": "https://github.com/sngular/javascript.git",
 		"directory": "packages/commitlint"
 	},
 	"scripts": {},

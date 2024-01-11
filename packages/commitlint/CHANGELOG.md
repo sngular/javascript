@@ -1,4 +1,4 @@
-# @os3/commitlint-config
+# @sngular/commitlint-config
 
 ## 0.0.3
 
