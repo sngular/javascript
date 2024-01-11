@@ -1,6 +1,6 @@
 {
 	"name": "@sngular/commitlint-config",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"description": "SNGULAR's commitlint config",
 	"main": "index.cjs",
 	"type": "commonjs",

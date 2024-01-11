@@ -1,5 +1,11 @@
 # @sngular/prettier-config
 
+## 1.0.0
+
+### Major Changes
+
+- b99ac5c: Public release
+
 ## 0.1.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @sngular/tsconfig
 
+## 1.0.0
+
+### Major Changes
+
+- b99ac5c: Public release
+
 ## 0.0.5
 
 ### Patch Changes

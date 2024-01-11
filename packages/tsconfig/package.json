@@ -1,6 +1,6 @@
 {
 	"name": "@sngular/tsconfig",
-	"version": "0.0.5",
+	"version": "1.0.0",
 	"description": "Sngular's tsconfig",
 	"main": "tsconfig.json",
 	"type": "module",
