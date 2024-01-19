@@ -16,6 +16,14 @@ module.exports = {
 		ecmaVersion: 'latest',
 		sourceType: 'module',
 	},
+	settings: {
+		'import/resolver': {
+			typescript: {
+				alwaysTryTypes: true,
+				project: './',
+			},
+		},
+	},
 	rules: {
 		indent: ['error', 'tab'],
 		'import/order': [
