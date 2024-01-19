@@ -1,5 +1,11 @@
 # @sngular/eslint-config
 
+## 1.0.1
+
+### Patch Changes
+
+- 560e652: imports/exports fields support in package.json
+
 ## 1.0.0
 
 ### Major Changes
