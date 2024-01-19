@@ -12,16 +12,19 @@
 		"url": "git+https://github.com/sngular/javascript.git"
 	},
 	"scripts": {
+		"lint": "npm run lint:check",
+		"lint:check": "eslint .",
+		"lint:fix": "eslint . --fix",
+		"format": "npm run format:check",
+		"format:check": "prettier --check .",
+		"format:fix": "prettier --write .",
+		"types": "npm run types:check",
+		"types:build": "tsc --build --pretty",
+		"types:check": "tsc --pretty",
 		"prepare": "husky install",
-		"lint": "npm run lint:prettier && npm run lint:eslint",
-		"lint:eslint": "eslint .",
-		"lint:prettier": "prettier --check .",
-		"format": "npm run format:prettier && npm run format:eslint",
-		"format:eslint": "npm run lint:eslint -- --fix",
-		"format:prettier": "npm run lint:prettier -- --write",
-		"update-versions": "npx changeset version && npm install",
-		"types": "tsc --build --pretty",
-		"release": "changeset publish"
+		"prepublishOnly": "npm run types:build",
+		"release": "changeset publish",
+		"check": "npm run lint:check && npm run format:check && npm run types:check && npm test"
 	},
 	"author": {
 		"name": "SNGULAR"
