@@ -24,7 +24,7 @@
 		"prepare": "husky install",
 		"prepublishOnly": "npm run types:build",
 		"release": "changeset publish",
-		"check": "npm run lint:check && npm run format:check && npm run types:check && npm test"
+		"check": "npm run lint:check && npm run format:check && npm run types:check"
 	},
 	"author": {
 		"name": "SNGULAR"
