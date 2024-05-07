@@ -1,5 +1,11 @@
 # @sngular/semantic-release-config
 
+## 2.0.0
+
+### Major Changes
+
+- ff07468: update dependencies allowing support for Node v22 LTS
+
 ## 1.0.0
 
 ### Major Changes
